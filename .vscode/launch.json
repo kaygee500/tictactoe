@@ -1,10 +1,12 @@
 {
+    "version": "0.2.0",
     "configurations": [
-        {
-            "type": "pwa-chrome",
-            "name": "vscode://vscode.github-authentication/did-authenticate?windowid=1&code=9c95f1d6648aea61bb8f&state=6db24c61-6ab9-4a5f-9569-b82aeeadc049",
-            "request": "launch",
-            "url": "vscode://vscode.github-authentication/did-authenticate?windowid=1&code=9c95f1d6648aea61bb8f&state=6db24c61-6ab9-4a5f-9569-b82aeeadc049"
-        }
+    {
+        "name": "Launch Chrome",
+        "request": "launch",
+        "type": "pwa-chrome",
+        "url": "http://localhost:8080",
+        "webRoot": "${workspaceFolder}/tictactoe.html"
+    }
     ]
 }
