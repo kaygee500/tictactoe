@@ -71,7 +71,7 @@ function declareWinner(who) {
   document.querySelector(".endgame .text").innerText = who;
 }
 
-function emptySquares(){
+function emptySquares(board){
   return origBoard.filter( s => typeof s == 'number');
 }
 
